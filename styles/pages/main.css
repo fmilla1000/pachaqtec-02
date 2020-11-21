@@ -12,16 +12,6 @@ ul {
   list-style: none;
 }
 
-@font-face {
-  font-family: "Gilroy-ExtraBold";
-  src: url("/fonts/Gilroy-ExtraBold.otf");
-}
-
-@font-face {
-  font-family: "Gilroy-Light";
-  src: url("/fonts/Gilroy-Light.otf");
-}
-
 html {
   font-size: 62.5%;
 }
@@ -42,16 +32,6 @@ h6 {
 
 main {
   font-family: Helvetica;
-}
-
-@font-face {
-  font-family: "Gilroy-ExtraBold";
-  src: url("/fonts/Gilroy-ExtraBold.otf");
-}
-
-@font-face {
-  font-family: "Gilroy-Light";
-  src: url("/fonts/Gilroy-Light.otf");
 }
 
 header div {
@@ -363,16 +343,6 @@ ul .home {
   margin-bottom: 6%;
 }
 
-@font-face {
-  font-family: "Gilroy-ExtraBold";
-  src: url("/fonts/Gilroy-ExtraBold.otf");
-}
-
-@font-face {
-  font-family: "Gilroy-Light";
-  src: url("/fonts/Gilroy-Light.otf");
-}
-
 main .populares {
   position: relative;
   margin-left: 16%;
@@ -537,16 +507,6 @@ main .populares {
   letter-spacing: 0.04em;
 }
 
-@font-face {
-  font-family: "Gilroy-ExtraBold";
-  src: url("/fonts/Gilroy-ExtraBold.otf");
-}
-
-@font-face {
-  font-family: "Gilroy-Light";
-  src: url("/fonts/Gilroy-Light.otf");
-}
-
 footer .f1 {
   padding-left: 15%;
   padding-right: 15%;
@@ -605,16 +565,6 @@ footer .f1 button {
   border-radius: 10px;
   border-color: #5A98D0;
   color: #FFFFFF;
-}
-
-@font-face {
-  font-family: "Gilroy-ExtraBold";
-  src: url("/fonts/Gilroy-ExtraBold.otf");
-}
-
-@font-face {
-  font-family: "Gilroy-Light";
-  src: url("/fonts/Gilroy-Light.otf");
 }
 
 footer .f2 {
@@ -728,16 +678,6 @@ footer .f2 .us ul {
 footer .f2 .us ul li {
   margin-bottom: 20%;
   color: #FFFFFF;
-}
-
-@font-face {
-  font-family: "Gilroy-ExtraBold";
-  src: url("/fonts/Gilroy-ExtraBold.otf");
-}
-
-@font-face {
-  font-family: "Gilroy-Light";
-  src: url("/fonts/Gilroy-Light.otf");
 }
 
 footer {
