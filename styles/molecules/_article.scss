@@ -88,3 +88,36 @@
         }
     }
 }
+
+@media (max-width: 650px) {
+    .article .article1,
+    .article .article2,
+    .article .article3,
+    .article .article4,
+    .article .article5 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .article .article1 figure,
+    .article .article2 figure,
+    .article .article3 figure,
+    .article .article4 figure,
+    .article .article5 figure {
+        width: 100%;
+    }
+    .article .article1 div,
+    .article .article2 div,
+    .article .article3 div,
+    .article .article4 div,
+    .article .article5 div {
+        margin-left: 0;
+        margin-top: 3%;
+    }
+    .article .article1 p,
+    .article .article2 p,
+    .article .article3 p,
+    .article .article4 p,
+    .article .article5 p {
+        margin-bottom: 3%;
+    }
+}

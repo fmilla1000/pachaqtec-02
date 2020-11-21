@@ -29,3 +29,26 @@ footer {
         margin-left: 8%;
     }
 }
+
+@media (max-width: 650px) {
+    footer .f1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer .f1 .button {
+        margin-top: 3%;
+    }
+    footer .f2 {
+        display: block;
+    }
+    footer .f2 .us {
+        display: block;
+    }
+    footer .f2 .us h6 {
+        margin-top: 6%;
+        margin-bottom: 3%;
+    }
+    footer .f2 .us ul li {
+        margin-bottom: 3%;
+    }
+}

@@ -323,6 +323,32 @@ ul .home {
   margin-bottom: 4%;
 }
 
+@media (max-width: 650px) {
+  .popular1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .popular1 div {
+    margin-right: 0;
+  }
+  .popular2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .popular2 div {
+    margin-bottom: 3%;
+  }
+  .popular2 div p {
+    margin-bottom: 3%;
+  }
+}
+
 .popular nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -505,6 +531,42 @@ main .populares {
   color: #356EAD;
   line-height: 18px;
   letter-spacing: 0.04em;
+}
+
+@media (max-width: 650px) {
+  .article .article1,
+  .article .article2,
+  .article .article3,
+  .article .article4,
+  .article .article5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .article .article1 figure,
+  .article .article2 figure,
+  .article .article3 figure,
+  .article .article4 figure,
+  .article .article5 figure {
+    width: 100%;
+  }
+  .article .article1 div,
+  .article .article2 div,
+  .article .article3 div,
+  .article .article4 div,
+  .article .article5 div {
+    margin-left: 0;
+    margin-top: 3%;
+  }
+  .article .article1 p,
+  .article .article2 p,
+  .article .article3 p,
+  .article .article4 p,
+  .article .article5 p {
+    margin-bottom: 3%;
+  }
 }
 
 footer .f1 {
@@ -710,6 +772,32 @@ footer p {
   }
   footer p {
     margin-left: 8%;
+  }
+}
+
+@media (max-width: 650px) {
+  footer .f1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer .f1 .button {
+    margin-top: 3%;
+  }
+  footer .f2 {
+    display: block;
+  }
+  footer .f2 .us {
+    display: block;
+  }
+  footer .f2 .us h6 {
+    margin-top: 6%;
+    margin-bottom: 3%;
+  }
+  footer .f2 .us ul li {
+    margin-bottom: 3%;
   }
 }
 /*# sourceMappingURL=main.css.map */
