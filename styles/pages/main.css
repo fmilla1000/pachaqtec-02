@@ -271,7 +271,7 @@ ul .home {
 .popular1 .img1 {
     height: 100%;
     width: 100%;
-    background-image: url("/../images/img-1.png");
+    background-image: url("/images/img-1.png");
 }
 
 .popular2 {
