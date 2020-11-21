@@ -194,16 +194,6 @@ ul .home {
   border-radius: 0px 10px 10px 0px;
 }
 
-@font-face {
-  font-family: "Gilroy-ExtraBold";
-  src: url("/fonts/Gilroy-ExtraBold.otf");
-}
-
-@font-face {
-  font-family: "Gilroy-Light";
-  src: url("/fonts/Gilroy-Light.otf");
-}
-
 .popular h2 {
   margin-bottom: 30px;
   font-size: 200%;
