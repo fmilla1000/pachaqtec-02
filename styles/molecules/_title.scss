@@ -1,11 +1,10 @@
-$url: "/../images";
 .title {
     height: 250px;
-    background-image: url("#{$url}/header.png");
+    background-image: url("/../images/header.png");
     display: block;
     div {
         height: 250px;
-        background-image: url("#{$url}/Vector.png");
+        background-image: url("/../images/Vector.png");
         h1 {
             display: flex;
             justify-content: center;
