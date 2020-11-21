@@ -1,0 +1,28 @@
+header {
+    height: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+@media (max-width: 900px) {
+    header {
+        font-size: 17px;
+    }
+}
+
+ul {
+    display: flex;
+    li {
+        margin: 0 25px;
+    }
+    .home {
+        color: #1F3F68;
+        font-weight: bold;
+    }
+}

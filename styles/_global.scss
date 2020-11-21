@@ -1,0 +1,22 @@
+@import "variables";
+html {
+    font-size: 62.5%;
+}
+
+body {
+    position: relative;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #316099;
+}
+
+main {
+    font-family: $font-primary;
+}
