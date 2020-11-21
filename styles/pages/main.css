@@ -91,13 +91,13 @@ header div p {
 
 .title {
     height: 250px;
-    background-image: url("../images/header.png");
+    background-image: url("/images/header.png");
     display: block;
 }
 
 .title div {
     height: 250px;
-    background-image: url("../images/Vector.png");
+    background-image: url("/images/Vector.png");
 }
 
 .title div h1 {
