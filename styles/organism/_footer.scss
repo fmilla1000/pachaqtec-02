@@ -1,0 +1,31 @@
+@import "../variables";
+footer {
+    background-color: #316099;
+    border-radius: 0px 200px 0px 0px;
+    .lineafot {
+        opacity: 0.4;
+        border: 1px solid #FFFFFF;
+        margin-bottom: 8%;
+        margin-top: 8%
+    }
+    p {
+        font-family: Arial;
+        font-size: 130%;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        opacity: 0.4;
+        margin-left: 15%;
+        padding-bottom: 5%;
+    }
+}
+
+@media (max-width: 900px) {
+    footer .f1,
+    footer .f2 {
+        padding-right: 8%;
+        padding-left: 8%;
+    }
+    footer p {
+        margin-left: 8%;
+    }
+}

@@ -1,0 +1,32 @@
+$url: "/../images";
+.title {
+    height: 250px;
+    background-image: url("#{$url}/header.png");
+    display: block;
+    div {
+        height: 250px;
+        background-image: url("#{$url}/Vector.png");
+        h1 {
+            display: flex;
+            justify-content: center;
+            font-family: Arial;
+            font-weight: normal;
+            font-size: 40px;
+            color: #FFFFFF;
+            padding: 50px;
+        }
+        p {
+            position: absolute;
+            padding-left: 22%;
+            padding-right: 22%;
+            font-family: Arial;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            /* or 150% */
+            text-align: center;
+            letter-spacing: 0.04em;
+            color: rgba(255, 255, 255, 0.78);
+        }
+    }
+}

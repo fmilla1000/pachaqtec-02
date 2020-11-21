@@ -4,22 +4,20 @@
 <head>
     <title>pachaqtec-02</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="widtg=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="./images/">
-    <link rel="stylesheet" href="./fonts/">
+    <link rel="stylesheet" href="./styles/pages/main.css">
+    <link rel="alternate" href="./images/">
+    <link rel="alternate" href="./fonts/">
 </head>
 
 <body>
     <header>
         <div>
             <div class="circle1"></div>
-            <div class="circle2">A</div>
+            <p>A</p>
         </div>
         <nav>
             <ul>
-                <li>Home</li>
+                <li class="home">Home</li>
                 <li>Espectaculo</li>
                 <li>Deportes</li>
             </ul>
@@ -28,10 +26,12 @@
 
     <main>
         <section class="title">
-            <h1>Blog Afrianska</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div>
+                <h1>Blog Afrianska</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
         </section>
-        <div>
+        <div class="populares">
             <section class="search">
                 <div>
                     <button>
@@ -48,12 +48,12 @@
                         <h3>Feugiat sodales at nullam tellus.</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d%o eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi posuere nibh tempor fringilla porta pellentesque ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                        <section class="popular1.1">
+                        <section class="popular11">
                             <div>
                                 <h4>Samatha Leuthex</h4>
                                 <p>May 5, 3 min read</p>
                             </div>
-                            <div>
+                            <div class="popular12">
                                 <button>
                                     <img src="./images/icon-save.png" alt="">
                                 </button>
@@ -63,11 +63,7 @@
                             </div>
                         </section>
                     </div>
-                    <div>
-                        <figure>
-                            <img src="./images/img-post-1.png" alt="">
-                        </figure>
-                    </div>
+                    <div class="img1"></div>
                 </section>
                 <section class="popular2">
                     <div>
@@ -76,12 +72,12 @@
                         </figure>
                         <h3>Porta proin tellus sed pulvinar odio eu pulvinar.</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                        <section class="popular2.1">
+                        <section class="popular21">
                             <div>
                                 <h4>Samatha Leuthex</h4>
                                 <p>May 5, 3 min read</p>
                             </div>
-                            <div>
+                            <div class="popular211">
                                 <button>
                                     <img src="./images/icon-save.png" alt="">
                                 </button>
@@ -97,12 +93,12 @@
                         </figure>
                         <h3>Non quam tortor, proin eu egestas scelerisque.</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                        <section class="popular2.2">
+                        <section class="popular22">
                             <div>
                                 <h4>Samatha Leuthex</h4>
                                 <p>May 5, 3 min read</p>
                             </div>
-                            <div>
+                            <div class="popular221">
                                 <button>
                                     <img src="./images/icon-save.png" alt="">
                                 </button>
@@ -118,12 +114,12 @@
                         </figure>
                         <h3>Amet amet sed pharetra risus sit eget interdum.</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                        <section class="popular2.3">
+                        <section class="popular23">
                             <div>
                                 <h4>Samatha Leuthex</h4>
                                 <p>May 5, 3 min read</p>
                             </div>
-                            <div>
+                            <div class="popular231">
                                 <button>
                                     <img src="./images/icon-save.png" alt="">
                                 </button>
@@ -135,25 +131,23 @@
                     </div>
                 </section>
                 <nav>SEE ALL POPULAR ARTICLE</nav>
-                <div></div>
+                <div class="linea"></div>
             </section>
             <section class="article">
                 <h4>ALL ARTICLE</h4>
                 <section class="article1">
-                    <div>
-                        <figure>
-                            <img src="./images/img-post-5.png" alt="">
-                        </figure>
-                    </div>
+                    <figure>
+                        <img src="./images/img-post-5.png" alt="">
+                    </figure>
                     <div>
                         <h5>Massa eu in laoreet enim augue vulputate nunc.</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.</p>
-                        <section class="article1.1">
+                        <section class="article11">
                             <div>
                                 <h6>Samatha Leuthex</h6>
                                 <p>May 5, 3 min read</p>
                             </div>
-                            <div>
+                            <div class="article111">
                                 <button>
                                     <img src="./images/icon-save.png" alt="">
                                 </button>
@@ -165,20 +159,18 @@
                     </div>
                 </section>
                 <section class="article2">
-                    <div>
-                        <figure>
-                            <img src="./images/img-post-6.png" alt="">
-                        </figure>
-                    </div>
+                    <figure>
+                        <img src="./images/img-post-6.png" alt="">
+                    </figure>
                     <div>
                         <h5>Feugiat a euismod arcu feugiat posuere morbi.</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.</p>
-                        <section class="article2.1">
+                        <section class="article21">
                             <div>
                                 <h6>Samatha Leuthex</h6>
                                 <p>May 5, 3 min read</p>
                             </div>
-                            <div>
+                            <div class="article211">
                                 <button>
                                     <img src="./images/icon-save.png" alt="">
                                 </button>
@@ -190,20 +182,18 @@
                     </div>
                 </section>
                 <section class="article3">
-                    <div>
-                        <figure>
-                            <img src="./images/img-post-7.png" alt="">
-                        </figure>
-                    </div>
+                    <figure>
+                        <img src="./images/img-post-7.png" alt="">
+                    </figure>
                     <div>
                         <h5>Sociis purus pellentesque faucibus vitae et felis.</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.</p>
-                        <section class="article3.1">
+                        <section class="article31">
                             <div>
                                 <h6>Samatha Leuthex</h6>
                                 <p>May 5, 3 min read</p>
                             </div>
-                            <div>
+                            <div class="article311">
                                 <button>
                                     <img src="./images/icon-save.png" alt="">
                                 </button>
@@ -215,20 +205,18 @@
                     </div>
                 </section>
                 <section class="article4">
-                    <div>
-                        <figure>
-                            <img src="./images/img-post-8.png" alt="">
-                        </figure>
-                    </div>
+                    <figure>
+                        <img src="./images/img-post-8.png" alt="">
+                    </figure>
                     <div>
                         <h5>Cursus feugiat mi pellentesque mauris sed eu.</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.</p>
-                        <section class="article4.1">
+                        <section class="article41">
                             <div>
                                 <h6>Samatha Leuthex</h6>
                                 <p>May 5, 3 min read</p>
                             </div>
-                            <div>
+                            <div class="article411">
                                 <button>
                                     <img src="./images/icon-save.png" alt="">
                                 </button>
@@ -240,20 +228,18 @@
                     </div>
                 </section>
                 <section class="article5">
-                    <div>
-                        <figure>
-                            <img src="./images/img-post-9.png" alt="">
-                        </figure>
-                    </div>
+                    <figure>
+                        <img src="./images/img-post-9.png" alt="">
+                    </figure>
                     <div>
                         <h5>A morbi arcu curabitur etiam fringilla augue.</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.</p>
-                        <section class="article5.1">
+                        <section class="article51">
                             <div>
                                 <h6>Samatha Leuthex</h6>
                                 <p>May 5, 3 min read</p>
                             </div>
-                            <div>
+                            <div class="article511">
                                 <button>
                                     <img src="./images/icon-save.png" alt="">
                                 </button>
@@ -264,38 +250,48 @@
                         </section>
                     </div>
                 </section>
-                <button>
-                    <img src="./images/arrow-left.png" alt="">
-                    Old Post
-                </button>
-                <button>
-                    <img src="./images/arrow-right.png" alt="">
-                    New Post
-                </button>
+                <section class="botones">
+                    <button>
+                        <img src="./images/arrow-left.png" alt="">
+                        Old Post
+                    </button>
+                    <button>
+                        New Post
+                        <img src="./images/arrow-right.png" alt="">
+                    </button>
+                </section>
+
             </section>
         </div>
     </main>
 
     <footer>
-        <div>
-            <section class="f1">
-                <div>
-                    <h4>Intersted to woek with our team?</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                </div>
-                <div>
-                    <button>Let's Talk</button>
-                </div>
-            </section>
-            <section class="f2">
-                <div>
+        <section class="f1">
+            <div>
+                <h4>Intersted to woek with our team?</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <div class="button">
+                <button>Let's Talk</button>
+            </div>
+        </section>
+        <div class="lineafot"></div>
+        <section class="f2">
+            <div>
+                <div class="afrianska">
+                    <div>
+                        <div class="circle"></div>
+                        <p>A</p>
+                    </div>
                     <h5>Afrianska</h5>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                        <li>+62-812-7313-4321</li>
-                        <li>hello.afrian@gmail.com</li>
-                    </ul>
                 </div>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>+62-812-7313-4321</li>
+                    <li>hello.afrian@gmail.com</li>
+                </ul>
+            </div>
+            <div class="us">
                 <div>
                     <h6>About US</h6>
                     <ul>
@@ -314,9 +310,9 @@
                         <li>Youtube</li>
                     </ul>
                 </div>
-                <p>2019 © Afrianska. All rights reserved.</p>
-            </section>
-        </div>
+            </div>
+        </section>
+        <p>2019 © Afrianska. All rights reserved.</p>
     </footer>
 
 </body>
