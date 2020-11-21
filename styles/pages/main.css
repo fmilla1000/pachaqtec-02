@@ -89,17 +89,6 @@ header div p {
   font-family: Gilroy-ExtraBold;
 }
 
-.title {
-  height: 250px;
-  background-image: url("/../images/header.png");
-  display: block;
-}
-
-.title div {
-  height: 250px;
-  background-image: url("/../images/Vector.png");
-}
-
 .title div h1 {
   display: -webkit-box;
   display: -ms-flexbox;
